@@ -2,15 +2,11 @@
 <?php
 
 /**
- * FileAssistantBot
- * Simple Telegram bot to generate download link of files and upload files from URL
- * Based on MadelineProto
- * https://github.com/danog/MadelineProto
- * By NimaH79
- * http://nimah79.ir.
+ * linkshareBot
+ * Simple Telegram bot to generate download link of files and 
  */
 define('FILES_PATH', __DIR__.'/files');
-define('WEBSERVER_BASE_URL', 'http://yourdomain.com');
+define('WEBSERVER_BASE_URL', 'http://https://anonymousfiles.io');
 define('FILES_EXPIRE_TIME', 24 * 3600); // in seconds
 
 set_time_limit(0);
